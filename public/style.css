@@ -1,0 +1,44 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  font-family: ff-chambers-sans-web,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img{
+  height:200px;
+}
+.strike{
+  text-decoration: line-through;
+  color: black
+}
+html{
+font-family: ff-chambers-sans-web,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h1,h2,h3{
+  font-family: ff-chambers-sans-web,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+#list{
+  font-family: ff-chambers-sans-web,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#listItem{
+  color: navy
+}
+#centerMain{
+
+  margin-left: 25%;
+}
+#greyBack, #greyBackProfile{
+  background: grey;
+}
+.contentCenter{
+  text-align: center;
+}
+
+
