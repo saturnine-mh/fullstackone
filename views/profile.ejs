@@ -10,42 +10,16 @@
 <body id="greyBackProfile">
 <div class="profile container">
 
-    <div class="profile page-header text-center">
-        <h1><span class="profile fa fa-anchor"></span> Profile Page</h1>
-        <a href="/logout" class="profile btn btn-default btn-sm">Logout</a>
-    </div>
+  
 
     <div class="profile row">
 
         <!-- LOCAL INFORMATION -->
-  
+  <section id="contentBoxes">
         <div id="centerMain" class="profile col-sm-6">
-            <div class="profile well">
-              <section id="contentMain">
-                <h3 class="contentCenter" ><span class="profile fa fa-user"></span> Local</h3>
-                <section id="localInfoSection">
-                <% if (user.local.email) { %>
-                    <p class="contentCenterLocalInfo">
-                        <h2>id:</h2> <%= user._id %><br>
-                        
-                    </p>
-                    <p class="contentCenterLocalInfo">
-                    <h2>email:</h2> <%= user.local.email %><br>
-                  </p>
-                  <p class="contentCenterLocalInfo">
-                    <h2>password:</h2> <%= user.local.password %>
-                  </p>
-
-                    <a href="/unlink/local" class="profile btn btn-default">Unlink</a>
-                <% } { %>
-                    <a href="/connect/local" class="profile btn btn-default">Connect Local</a>
-                <% } %>
-                </section>
-                <section>
-                <img src="img/toDoGif.gif">
-              </section>
-
-        <h1>To Do List</h1>
+          <div class="profileTaskList profile well">
+            <section id="profileTaskText">
+<h1>To Do List</h1>
    
 
         <h2>Add a task to your list</h2>
@@ -58,7 +32,7 @@
             <option value="mental-health">Mental Health</option>
           </select>
           <input type="text" placeholder="Task" name="name" required>
-          <button type="submit">Submit</button>
+          <button class="btn btn-primary" type="submit">Submit</button>
         </form>
 
 
@@ -124,9 +98,17 @@
             <% } %>
             
           </section>
+        </section>
+        </div>
+</section>
+
         
 </div>
+
 </section>
+<div id="footerTask">
+  <a href="/logout" class="profile btn btn-default btn-sm">Logout</a>
+</div>
 
 <script src="main.js"></script>
 

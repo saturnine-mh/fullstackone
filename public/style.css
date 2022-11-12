@@ -12,6 +12,9 @@ img{
   text-decoration: line-through;
   color: black
 }
+.indexWhite, #toDoIndex{
+  color: white;
+}
 html{
 font-family: ff-chambers-sans-web,sans-serif;
 font-weight: 400;
@@ -32,7 +35,7 @@ font-style: normal;
 }
 #centerMain{
 
-  margin-left: 25%;
+
 }
 #greyBack, #greyBackProfile{
   background: grey;
@@ -40,5 +43,62 @@ font-style: normal;
 .contentCenter{
   text-align: center;
 }
-
-
+.loginButton{
+  color: black;
+}
+.loginCard{
+  background: black;
+margin-top: 10%;
+width: 45%;
+margin-left: 26%;
+}
+.greyBack{
+  background: grey;
+}
+#toDoIndex{
+  font-size: 30px;
+}
+#indexImg{
+  height: 75px;
+}
+#logInBox{
+  border-radius: 80px; 
+border: 2px solid #000000;
+  margin: 5% 30%;
+  padding: 10%;
+  background-color: black;
+}
+.logInText{
+  color: white;
+}
+#logInMain{
+  background-color: rgb(39, 36, 85);
+}
+#greyBackProfile{
+  background-image: url('img/notebook.gif');
+ background-size: cover;
+}
+#profileInfo{
+ font-size: 10px;
+}
+#profileInfoText{
+  font-size: 15px;
+}
+#contentBoxes{
+  display: flex;
+  justify-content: baseline;
+}
+.profileTaskList{
+  background-image: url('img/paper.jpeg');
+ 
+}
+#profileTaskText{
+  margin-left: 10%;
+}
+#footerTask{
+  margin-left: 50%;
+  margin-top: 5%
+}
+#indexImg{
+  margin-bottom: 5%;
+}
